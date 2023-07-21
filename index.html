@@ -8,27 +8,25 @@
 </head>
 <body>
     <section class="header">
-        <img src="/img/ciel_etoile.jpg" alt="">
         <div class="header_titre">
             <h2> “Hello, I am Lynda YAHIAOUI and I am a web developer.”</h2>
             <button><a href="">View my work</a></button>
         </div>
     </section>
     <div class="nav">
-        <div class="logo"></div>
         <div class="navbar">
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Projets</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projet">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
-    <section class="about">
-        <h2>About</h2>
+    <section id="about" class="about">
+        <h2 class="about_title">About</h2>
         <div class="about_qualite">
-            <div class="about_card">
+            <div class="about_qualite_card">
                 <img src="/img/almost 1.png" alt="" class="about_card_img">
                 <h3 class="about_card_title">Almost</h3>
                 <p class="about_card_text">Fast load times and lag free interaction, my highest priority.</p>
@@ -58,33 +56,34 @@
                 <div class="competence_barre">
                     <div class="barre_title">.html</div>
                     <div class="barre_indicateur"></div>
-                    <div class="barre_pourcentace">90%</div>
+                    <div class="barre_pourcentage">90%</div>
                 </div>
                 <div class="competence_barre">
                     <div class="barre_title">.css</div>
                     <div class="barre_indicateur"></div>
-                    <div class="barre_pourcentace">90%</div>
+                    <div class="barre_pourcentage">90%</div>
                 </div>
                 <div class="competence_barre">
                     <div class="barre_title">javascript</div>
                     <div class="barre_indicateur"></div>
-                    <div class="barre_pourcentace">70%</div>
+                    <div class="barre_pourcentage"style="width: 30%;">70%</div>
                 </div>
                 <div class="competence_barre">
                     <div class="barre_title">Dessin</div>
                     <div class="barre_indicateur"></div>
-                    <div class="barre_pourcentace">80%</div>
+                    <div class="barre_pourcentage" style="width: 20%;">80%</div>
                 </div>
                 <div class="competence_barre">
                     <div class="barre_title">photoshop</div>
                     <div class="barre_indicateur"></div>
-                    <div class="barre_pourcentace">50%</div>
+                    <div class="barre_pourcentage"style="width:  50%;">50%</div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="projet">
-        <a href="" class="projet_lien">
+    <section id="projet" class="projet">
+        <h2 class="projet_title">Projet</h2>
+        <a href="./projet1/index.html" class="projet_lien">
             <img src="/img/projet1.png" alt="" class="projet_img">
         </a>
         <a href="" class="projet_lien">
@@ -106,11 +105,11 @@
             <img src="/img/Projet7.png" alt="" class="projet_img">
         </a>
     </section>
-    <section class="contact">
-            <h2>contact</h2>
-            <input type="text" name="" id=" Name">
-            <input type="email" name="" id="">
-            <input type="text" name="" id="">
+    <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <input type="text" name="Name" id=" " placeholder="Nom">
+            <input type="email" name="Email" id="" placeholder="Mail">
+            <input type="text" name="Your message" id="" placeholder="Enter your message">
             <button>Submit</button>
     </section>
     <section class="footer">
